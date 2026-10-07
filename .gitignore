@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # This .gitignore file should be placed at the root of your Unity project directory
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
@@ -47,6 +48,26 @@ ExportedObj/
 *.unityproj
 *.sln
 *.slnx
+=======
+# Carpetas generadas por Unity (se regeneran solas)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Ficheros de IDE y de proyecto generados
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+>>>>>>> 392b988 (Primer commit: círculo 2D con movimiento por puntos)
 *.suo
 *.tmp
 *.user
@@ -59,6 +80,7 @@ ExportedObj/
 *.opendb
 *.VC.db
 
+<<<<<<< HEAD
 # Unity3D generated meta files
 *.pidb.meta
 *.pdb.meta
@@ -107,3 +129,18 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+=======
+# Builds y paquetes
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Crashes y logs de Unity
+sysinfo.txt
+crashlytics-build.properties
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+>>>>>>> 392b988 (Primer commit: círculo 2D con movimiento por puntos)
